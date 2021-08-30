@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>temperature Main page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div>
+    <div class="row">
+      <div class="col col-6 homebtn">
+        <a href="index.html">Lattitude</a>
+      </div>
+      <div class="col col-6 menubuttons divtop">
+        <nav class="navbar navbar-expand-md navbar-light">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Plots
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="visualizationtemperature.html">Temperature</a>
+                  <a class="dropdown-item" href="visualizationhumidity.html">Humidity</a>
+                  <a class="dropdown-item" href="visualizationcloudiness.html">Cloudiness</a>
+                  <a class="dropdown-item" href="visualizationwind.html">Windspeed</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="comparison.html">Comparison</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Data.html">Data</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <br>
+    <div class="row">
+      <div class="col col-12 col-md-8 divbdy">
+        <br>
+        <h1>Temperature</h1>
+        <hr>
+        <a href="visualizationtemperature.html"><img src="assets/images/Fig1.png"alt="Latitude vs. Temperature"width="710" align="left"></a>
+        <p>
+        the closer to the equator (0 Lat) the higher the max temperature for both N and S.
+        </p>
+        <hr>
+      </div>
+      <div class="col col-12 col-md-4 divbdy">
+        <br>
+        <h2>Visualizations</h2>
+        <hr>
+                <a href="visualizationtemperature.html"><img src="assets/images/Fig1.png" alt="Latitude vs. Temperature"width="380" align="row" style="padding-bottom: 10px;"></a>
+                <a href="visualizationhumidity.html"><img src="assets/images/Fig2.png" alt="Latitude vs. Humidity"width="380" align="row" style="padding-bottom: 10px;"></a>
+                <a href="visualizationcloudiness.html"><img src="assets/images/Fig3.png" alt="Latitude vs. Cloudiness"width="380" align="row" style="padding-bottom: 10px;"></a>
+                <a href="visualizationwind.html"><img src="assets/images/Fig4.png" alt="Latitude vs. Windspeed"width="380" align="row" style="padding-bottom: 10px;"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+  </div>
+</body>
+
+</html>
